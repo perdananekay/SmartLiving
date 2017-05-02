@@ -1,0 +1,433 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* /* /* online showroom sub page */
+
+.online-showroom .wrapper {
+  background: #fff;
+}
+
+
+/* /* /* /* transparent area */
+
+.online-showroom .transContent {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+
+/* /* /* /* /* end of header */
+
+
+/* /* /* /* /* no ie box */
+
+.online-showroom .ie8 {
+  width: 100%; /*100*/
+   height: 80%; /*80*/
+  background: url(images/functions.jpg) no-repeat center top;
+}
+
+.online-showroom .ie8>div {
+  background: url(images/bAlpha.png) left top repeat;
+  width: 100%;
+  height: 80%;
+}
+
+.online-showroom .ie8>div>div {
+  width: 100%;
+  height: 30px;
+  padding-top: 310px;
+  text-align: center
+}
+
+.online-showroom .ie8>div>div, .online-showroom .ie8>div>div .en {
+  color: #fff;
+  font-size: 16pt;
+  line-height: 30px;
+}
+
+
+/* /* /* /* /* end of no ie box */
+
+
+/* /* /* /* /* show room Pannel */
+
+.online-showroom .srPannel {
+  /*height:107px;*/
+  width: 100%;
+  background: url(images/pAlpha.png) repeat;
+  background: #EE534F;
+  position: absolute;
+  z-index: 10;
+  left: 0px;
+  bottom: 0px;
+}
+
+.online-showroom .srPannel>div {
+  width: 996px;
+  height: 100px;
+  position: relative;
+  margin: auto;
+}
+
+.online-showroom .srPannel h2, .online-showroom .srPannel p {
+  float: left;
+  color: #fff;
+  font-weight: normal;
+}
+
+.enPage.online-showroom .srPannel h2, .enPage.online-showroom .srPannel p {
+  width: 600px;
+}
+
+.zhPage.online-showroom .srPannel h2, .zhPage.online-showroom .srPannel p {
+  width: 700px;
+}
+
+.online-showroom .srPannel h2 {
+  font-size: 33px;
+  margin: 0;
+  padding: 12px 0 5px 0;
+  line-height: 40px;
+  font-family: HelveticaNeueLTStd-Thin;
+}
+
+.online-showroom .srPannel p {
+  font-size: 17px;
+  line-height: 22px;
+  font-family: RobotoLight;
+  margin: 0 0 14px 0;
+}
+
+
+/* /* /* /* /* /* ipad nexus*/
+
+.online-showroom .srPannel .ipad {
+  width: 240px; /*229*/
+  height: 300px; /**/
+  position: absolute;
+  /*left: 0px;*/
+  right: 0px;
+  bottom: 0px;
+  padding: 40px 30px 40px 23px;
+  background: url(images/nexus.png) no-repeat;
+}
+
+
+/* /* /* /* /* /* /* pannel switch */
+
+.online-showroom ul.pannelSwitch {
+  display: block;
+  padding: 0;
+  width: 220px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.online-showroom ul.pannelSwitch>li {
+  display: block;
+  float: left;
+  width: 110px;
+  height: 50px;
+  top: 20px;
+  position: relative;
+  overflow: visible;
+}
+
+.enPage.online-showroom ul.pannelSwitch>li {
+  background: url(images/pannelSwitch_eng.png) no-repeat;
+}
+
+.zhPage.online-showroom ul.pannelSwitch>li {
+  background: url(images/pannelSwitch_chi.png) no-repeat;
+}
+
+.online-showroom ul.pannelSwitch>li div {
+  width: inherit;
+  height: inherit;
+  cursor: pointer;
+}
+
+.online-showroom ul.pannelSwitch>li.active div {
+  cursor: default !important;
+}
+
+.online-showroom ul.pannelSwitch>li span {
+  display: none;
+}
+
+.online-showroom ul.pannelSwitch>li#functionsBtn {
+  background-position: left bottom;
+}
+
+.online-showroom ul.pannelSwitch>li#functionsBtn:hover, .online-showroom ul.pannelSwitch>li#functionsBtn.active {
+  background-position: left top;
+}
+
+.online-showroom ul.pannelSwitch>li#scenesBtn {
+  background-position: right bottom;
+}
+
+.online-showroom ul.pannelSwitch>li#scenesBtn:hover, .online-showroom ul.pannelSwitch>li#scenesBtn.active {
+  background-position: right top;
+}
+
+
+/* /* /* /* /* /* /* /* pannels */
+
+.online-showroom ul.pannelSwitch>li .pannel {
+  display: none;
+  width: 216px;
+  padding: 0 2px;
+  height: 213px;
+  position: absolute;
+  top: 60px;
+}
+
+.online-showroom ul.pannelSwitch>li#functionsBtn .pannel {
+  left: 0px;
+}
+
+.online-showroom ul.pannelSwitch>li#scenesBtn .pannel {
+  right: 0px
+}
+
+.online-showroom ul.pannelSwitch>li.active .pannel {
+  display: block !important;
+}
+
+
+/* /* /* /* /* /* /* /* /* icons */
+
+.online-showroom ul.pannelSwitch>li .pannel li {
+  display: block;
+  width: 70px;
+  height: 81px;
+  margin: 12px 1px;
+  float: left;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.enPage.online-showroom ul.pannelSwitch>li .pannel li {
+  background-image: url(images/icons_eng.png);
+}
+
+.zhPage.online-showroom ul.pannelSwitch>li .pannel li {
+  background-image: url(images/icons_chi.png);
+}
+
+
+/*.online-showroom ul.pannelSwitch > li .pannel li.active{
+  cursor:default !important;
+}*/
+
+.online-showroom ul.pannelSwitch>li .pannel li span {
+  display: none;
+}
+
+.online-showroom #tvBtn {
+  background-position: left 0px;
+}
+
+.online-showroom #tvBtn:hover {
+  background-position: center 0px;
+}
+
+.online-showroom #tvBtn.active {
+  background-position: right 0px;
+}
+
+.online-showroom #lampBtn {
+  background-position: left -81px;
+}
+
+.online-showroom #lampBtn:hover {
+  background-position: center -81px;
+}
+
+.online-showroom #lampBtn.active {
+  background-position: right -81px;
+}
+
+.online-showroom #hifiBtn {
+  background-position: left -162px;
+}
+
+.online-showroom #hifiBtn:hover {
+  background-position: center -162px;
+}
+
+.online-showroom #hifiBtn.active {
+  background-position: right -162px;
+}
+
+.online-showroom #curtainBtn {
+  background-position: left -243px;
+}
+
+.online-showroom #curtainBtn:hover {
+  background-position: center -243px;
+}
+
+.online-showroom #curtainBtn.active {
+  background-position: right -243px;
+}
+
+.online-showroom #airConBtn {
+  background-position: left -324px;
+}
+
+.online-showroom #airConBtn:hover, .online-showroom #airConBtn.active:hover {
+  background-position: center -324px;
+}
+
+.online-showroom #airConBtn.active {
+  background-position: right -324px;
+}
+
+.online-showroom #ipCamBtn {
+  background-position: left -405px;
+}
+
+.online-showroom #ipCamBtn:hover {
+  background-position: center -405px;
+}
+
+.online-showroom #ipCamBtn.active {
+  background-position: right -405px;
+}
+
+.online-showroom #brightBtn {
+  background-position: left -486px;
+}
+
+.online-showroom #brightBtn:hover {
+  background-position: center -486px;
+}
+
+.online-showroom #brightBtn.active {
+  background-position: right -486px;
+}
+
+.online-showroom #sleepingBtn {
+  background-position: left -567px;
+}
+
+.online-showroom #sleepingBtn:hover {
+  background-position: center -567px;
+}
+
+.online-showroom #sleepingBtn.active {
+  background-position: right -567px;
+}
+
+.online-showroom #dinningBtn {
+  background-position: left -648px;
+}
+
+.online-showroom #dinningBtn:hover {
+  background-position: center -648px;
+}
+
+.online-showroom #dinningBtn.active {
+  background-position: right -648px;
+}
+
+.online-showroom #sunsetBtn {
+  background-position: left -729px;
+}
+
+.online-showroom #sunsetBtn:hover {
+  background-position: center -729px;
+}
+
+.online-showroom #sunsetBtn.active {
+  background-position: right -729px;
+}
+
+.online-showroom #movieBtn {
+  background-position: left -810px;
+}
+
+.online-showroom #movieBtn:hover {
+  background-position: center -810px;
+}
+
+.online-showroom #movieBtn.active {
+  background-position: right -810px;
+}
+
+.online-showroom #romanticBtn {
+  background-position: left -891px;
+}
+
+.online-showroom #romanticBtn:hover {
+  background-position: center -891px;
+}
+
+.online-showroom #romanticBtn.active {
+  background-position: right -891px;
+}
+
+
+/* /* /* /* /* /* /* /* /* end of icons */
+
+
+/* /* /* /* /* /* /* /* end of pannels */
+
+
+/* /* /* /* /* /* /* end of pannel switch */
+
+
+/* /* /* /* /* /* end of ipad */
+
+
+/* /* /* /* /* end of show room Pannel */
+
+.online-showroom canvas {
+  margin: 0;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+}
+
+
+/* /* /* /* end of transparent area */
+
+
+/* /* /* /* tv video */
+
+.tvVideo {
+  position: absolute;
+  width: 300px;
+  height: 148px;
+  display: none;
+  overflow: hidden;
+  /*background: #000;*/
+  z-index: 10;
+}
+
+
+/* /* /* /* end of tv video */
+
+.online-showroom .mainContent {
+  display: none;
+}
+
+.online-showroom .footer {
+  border-top-color: #fff
+}
+
+
+/* /* /* end of online showroom sub page */
